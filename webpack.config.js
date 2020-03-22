@@ -52,4 +52,12 @@ module.exports = {
       filename: './index.html',
     }),
   ],
+  resolve: {
+    alias: {
+      '@components': path.resolve(__dirname, 'src', 'componentes'),
+      '@views': path.resolve(__dirname, 'src', 'views'),
+      '@assets': path.resolve(__dirname, 'src', 'assets'),
+      '@utils': path.resolve(__dirname, 'src', 'utils'),
+    },
+  },
 }

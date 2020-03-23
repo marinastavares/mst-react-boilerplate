@@ -1,3 +1,4 @@
+/* eslint-disable comma-dangle */
 import React from 'react'
 import { render } from 'react-dom'
 import { createStore } from 'redux'
@@ -22,5 +23,5 @@ render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById('react-app-container'),
+  document.getElementById('react-app-container')
 )

@@ -8,7 +8,9 @@
   "dependencies": {
     "babel-plugin-react-css-modules": "^5.2.6",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --open --hot",

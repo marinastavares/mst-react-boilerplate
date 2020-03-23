@@ -12,7 +12,7 @@ const countReducer = (state = 0, action) => {
     case 'DECREMENT':
       return state - 1
     default:
-      return state;
+      return state
   }
 }
 
@@ -21,5 +21,6 @@ const store = createStore(countReducer)
 render(
   <Provider store={store}>
     <App />
-  </Provider>, document.getElementById('react-app-container'),
+  </Provider>,
+  document.getElementById('react-app-container'),
 )

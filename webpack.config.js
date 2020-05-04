@@ -2,15 +2,12 @@ const HtmlWebPackPlugin = require('html-webpack-plugin')
 const path = require('path')
 
 module.exports = {
-  entry: 'index',
+  entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'scripts'),
     filename: 'bundle.js',
   },
   module: {
-    loaders: [
-      { test: /\.json$/, loader: 'json-loader' },
-    ],
     rules: [
       {
         test: /\.(js|jsx)$/,
@@ -61,7 +58,6 @@ module.exports = {
     }),
   ],
   resolve: {
-    extensions: ['', '.webpack.js', '.web.js', '.js'],
     alias: {
       '@components': path.resolve(__dirname, 'src', 'componentes'),
       '@views': path.resolve(__dirname, 'src', 'views'),

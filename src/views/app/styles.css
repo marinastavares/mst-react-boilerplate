@@ -1,0 +1,44 @@
+@import 'normalize.css';
+
+.body {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+
+    .header {
+        background-color: #81D8D0;
+        height: 200px;
+        color: white;
+        margin: 0;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .img {
+            height: 250px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin: 105px auto 0;
+        }
+    }
+
+    .name {
+        font-family: 'Gochi Hand', cursive;
+        color: #81D8D0;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 125px;
+        padding: 30px;
+
+        .days {
+            color: #81D8D0;
+            font-family: 'Gochi Hand', cursive;
+            text-align: center;
+        }
+    }
+}

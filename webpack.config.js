@@ -25,6 +25,14 @@ module.exports = {
         ],
       },
       {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
         test: /\.svg$/,
         use: [
           {
@@ -42,8 +50,9 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              modules: true,
-              localIdentName: '[path]___[name]__[local]___[hash:base64:5]',
+              modules: {
+                localIdentName: '[name]__[local]___[hash:base64:5]',
+              },
             },
           },
           { loader: 'postcss-loader' },
@@ -59,10 +68,10 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      '@components': path.resolve(__dirname, 'src', 'componentes'),
-      '@views': path.resolve(__dirname, 'src', 'views'),
-      '@assets': path.resolve(__dirname, 'src', 'assets'),
-      '@utils': path.resolve(__dirname, 'src', 'utils'),
+      _components: path.resolve(__dirname, 'src', 'componentes'),
+      _views: path.resolve(__dirname, 'src', 'views'),
+      _assets: path.resolve(__dirname, 'src', 'assets'),
+      _utils: path.resolve(__dirname, 'src', 'utils'),
     },
   },
   node: {

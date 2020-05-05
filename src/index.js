@@ -4,7 +4,9 @@ import { render } from 'react-dom'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 
-import App from './App'
+import App from './views/app'
+
+import 'normalize.css'
 
 const countReducer = (state = 0, action) => {
   switch (action.type) {

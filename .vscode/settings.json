@@ -1,0 +1,9 @@
+{
+  "jumpToAliasFile.alias": {
+    "components": "/Users/marinastavares/mst-react-boilerplate/src/componentes",
+    "views": "/Users/marinastavares/mst-react-boilerplate/src/views",
+    "assets": "/Users/marinastavares/mst-react-boilerplate/src/assets",
+    "utils": "/Users/marinastavares/mst-react-boilerplate/src/utils",
+    "modules": "/Users/marinastavares/mst-react-boilerplate/src/modules"
+  }
+}

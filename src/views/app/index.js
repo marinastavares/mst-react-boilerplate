@@ -1,8 +1,7 @@
 import React from 'react'
 import moment from 'moment'
 
-// eslint-disable-next-line import/no-unresolved
-import marina from '_assets/marina.jpg'
+import marina from 'assets/marina.jpg'
 import styles from './styles.css'
 
 const App = () => (

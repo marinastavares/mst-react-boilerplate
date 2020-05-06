@@ -1,3 +1,5 @@
+require('babel-register')
+
 module.exports = {
   env: {
     browser: true,
@@ -19,12 +21,6 @@ module.exports = {
   rules: {
     semi: 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.vue'],
-      },
-    },
+    "import/no-unresolved": "off",
   },
 }

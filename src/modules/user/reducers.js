@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-unresolved
-import { createReducer } from '_utils/redux'
+import { createReducer } from 'utils/redux'
 
 const INITIAL_STATE = {
   fullName: '',

@@ -20,4 +20,11 @@ module.exports = {
     semi: 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.vue'],
+      },
+    },
+  },
 }

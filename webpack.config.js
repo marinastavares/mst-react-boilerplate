@@ -72,6 +72,7 @@ module.exports = {
       _views: path.resolve(__dirname, 'src', 'views'),
       _assets: path.resolve(__dirname, 'src', 'assets'),
       _utils: path.resolve(__dirname, 'src', 'utils'),
+      _modules: path.resolve(__dirname, 'src', 'modules'),
     },
   },
   node: {

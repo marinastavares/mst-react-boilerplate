@@ -18,7 +18,8 @@ const App = () => (
         {' '}
         {moment('20200505', 'YYYYMMDD').locale('pt-br').fromNow()}
         {' '}
-        sem mexer nesse projeto
+        sem mexer
+        nesse projeto
       </h2>
     </div>
   </body>

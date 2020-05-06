@@ -21,6 +21,6 @@ module.exports = {
   rules: {
     semi: 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    "import/no-unresolved": "off",
+    'import/no-unresolved': 'off',
   },
 }

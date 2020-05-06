@@ -6,6 +6,7 @@ import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
 import logger from 'redux-logger'
+import promiseMiddleware from 'redux-promise-middleware'
 
 import rootReducer from './modules/reducers'
 import App from './views/app'
@@ -14,7 +15,7 @@ import 'normalize.css'
 
 const store = createStore(
   rootReducer,
-  composeWithDevTools(applyMiddleware(thunk, logger))
+  composeWithDevTools(applyMiddleware(thunk, promiseMiddleware, logger))
 )
 render(
   <Provider store={store}>

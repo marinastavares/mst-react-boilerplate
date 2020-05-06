@@ -6,6 +6,8 @@
   "author": "Love H.",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
+    "axios-hooks": "^1.10.0",
     "babel-plugin-react-css-modules": "^5.2.6",
     "babel-register": "^6.26.0",
     "moment": "^2.25.3",
@@ -14,8 +16,11 @@
     "react-dom": "^16.10.2",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
+    "redux-define": "^1.1.1",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.2",
+    "redux-promise-middleware-actions": "^3.0.1",
     "redux-thunk": "^2.3.0",
     "serialize-javascript": "^2.1.1"
   },
